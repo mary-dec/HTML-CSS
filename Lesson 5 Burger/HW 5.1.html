@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .box{
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      margin: 300px auto 0 auto;
+      animation: flag 6s linear infinite alternate;
+        }
+    @keyframes flag {
+      from{
+        transform: scale(3);
+        }
+      50%{
+        border-radius: 40%;
+        rotate: 60deg;
+      }
+      to{
+        transform: scale(1);
+        background-color: yellow;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="box"></div>
+ 
+</body>
+</html>

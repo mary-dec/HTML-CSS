@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .radius{
+            width: 150px;
+            height: 150px;
+            background-color: lightcoral;
+            margin: 300px auto 0 auto ;
+            animation: flag 7s ease-out infinite alternate;
+        }
+        @keyframes flag {
+            from{
+                transform: scale(0.7);
+                background-color: #441818;
+                border-radius: 20%;
+
+            }
+            50%{
+                border-radius: 50%;
+                background-color: #009dff;
+            }
+            to{
+                transform: scale(1.5);
+                background-color: #0d450d;
+                border-radius: 40%;
+
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="radius"></div>
+</body>
+</html>

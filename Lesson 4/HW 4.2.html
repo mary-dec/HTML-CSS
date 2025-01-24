@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        header,section,aside,footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        header,section,aside,footer p{
+            font-size: 20px;
+            color: white;
+                }
+header{
+    height: 20vh;
+    background-color: #8D8484;
+}
+footer{
+    height: 20vh;
+    background-color: #BDBDBD;
+}
+main{ display: flex}
+.out{
+    background-color: #776969;
+}
+.middle{
+    background-color: #643030;
+}
+.down{
+    background-color: #441818;
+}
+.sup{
+    background-color: #937575;
+}
+.sub{
+    background-color: #644C4C;
+}
+section{
+    height: 20vh;
+    width: 73vw;
+}
+aside{
+    height: 30vh;
+    width: 27vw;
+}
+    </style>
+</head>
+<body>
+<header> <p>Header</p></header>
+<main>
+<div class="main">
+    <section class="out"><p>Content -1</p></section>
+    <section class="middle"><p>Content -2</p></section>
+    <section class="down"><p>Content -3</p></section>
+</div>
+    <div class="second">
+        <aside class="sup"><p>spam -1</p></aside>
+        <aside class="sub"><p>spam -2</p></aside>
+    </div>
+</main>
+<footer><p>Footer</p></footer>
+</body>
+</html>
