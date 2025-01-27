@@ -89,7 +89,6 @@ main{
     margin-top: 250px;
     display: flex;
     width: 470px;
-    padding: 14px 18px 11px 18px;
     justify-content: center;
     align-items: center;
 }
@@ -392,10 +391,96 @@ footer button{
     font-weight: 400;
     line-height: normal;
 }
-/*--------------------------------------------------*/
-.signs{
+/*----------------------------parts 2----------------------*/
+.list{
+    background: #E4E5E9;
+    display: flex;
+    justify-content: center;
+}
+.contacts{
+    margin: 70px auto 26px auto;
+    width: 1250px;
+}
+footer .signs{
+    padding-bottom: 50px;
+    border-bottom: 1px solid #C0C0C0;
+    margin-bottom: 26px;
+    display: flex;
+    gap: 160px;
+}
+.footer-sign{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-img{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    height: 30px;
+}
+.blog-footer{
+    width: 195px;
+    height: 45px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 2px;
+}
+.blog-footer h2{
+    color: #001858;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 
 }
-.sign{
+.blog-footer h6{
+    color:#6246EA;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 47px;
+    height: 27px;
+}
+.footer-sign p{
+    color: #2B2C34;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 284px;
+}
+footer h5{
+    color: #2B2C34;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.information h4{
+    color: #2B2C34;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.information ul{
     display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.information li{
+    color: #2B2C34;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.category-about{
+    display: flex;
+    gap: 95px;
 }
